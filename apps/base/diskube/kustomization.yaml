@@ -11,8 +11,3 @@ resources:
   - sa.yaml
   - c-role.yaml
   - crb.yaml
-spec:
-  decryption:
-    provider: sops
-    secretRef:
-      name: sops-age
