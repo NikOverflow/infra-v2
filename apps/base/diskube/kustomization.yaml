@@ -3,6 +3,7 @@ kind: Kustomization
 namespace: diskube
 resources:
   - namespace.yaml
+  - secret.yaml
   - deployment_mysql.yaml
   - pvc_mysql.yaml
   - service_mysql.yaml
@@ -10,3 +11,8 @@ resources:
   - sa.yaml
   - c-role.yaml
   - crb.yaml
+spec:
+  decryption:
+    provider: sops
+    secretRef:
+      name: sops-age
