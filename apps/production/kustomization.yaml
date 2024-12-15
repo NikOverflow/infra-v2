@@ -4,3 +4,4 @@ resources:
   - ../base/nginx-download
   - ../base/gethomepage
   - ../base/diskube
+  - ../base/glance
