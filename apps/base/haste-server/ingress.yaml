@@ -4,6 +4,7 @@ metadata:
   name: haste-server
   namespace: haste-server
   annotations:
+    cert-manager.io/cluster-issuer: "letsencrypt"
     gethomepage.dev/description: Hastebin/Pastebin fork
 spec:
   ingressClassName: traefik
