@@ -3,7 +3,7 @@ kind: Kustomization
 resources:
   - ../base/nginx-download
   - ../base/gethomepage
-#  - ../base/diskube
+  - ../base/diskube
   - ../base/glance
   - ../base/haste-server
   - ../base/killedby
