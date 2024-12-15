@@ -8,3 +8,4 @@ resources:
   - ../base/haste-server
   - ../base/killedby
   - ../base/k8s-dashboard
+  - ../base/capacitor
