@@ -7,5 +7,5 @@ resources:
   - ../base/glance
   - ../base/haste-server
   - ../base/killedby
-  - ../base/k8s-dashboard
+#  - ../base/k8s-dashboard
   - ../base/weave-gitops
