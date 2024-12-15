@@ -9,3 +9,4 @@ resources:
   - ../base/killedby
 #  - ../base/k8s-dashboard
   - ../base/weave-gitops
+  - ../base/wakapi

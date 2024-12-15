@@ -1,0 +1,16 @@
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: wakapi
+  namespace: wakapi
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: wakapi
+      sourceRef:
+        kind: HelmRepository
+        name: wakapi
+        namespace: wakapi
+  values:
+    replicaCount: 1
