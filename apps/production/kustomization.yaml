@@ -6,3 +6,4 @@ resources:
   - ../base/diskube
   - ../base/glance
   - ../base/haste-server
+  - ../base/killedby

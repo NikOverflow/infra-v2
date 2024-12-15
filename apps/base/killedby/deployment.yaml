@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: killedby
+  namespace: killedby
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: killedby
+  template:
+    metadata:
+      labels:
+        app: killedby
+    spec:
+      containers:
+      - name: killedby
+        image: bacherik/killedby:v1.1.0
+        env:
+        - name: GITHUB_USERNAME
+          value: "bacherik"
+        - name: GITHUB_REPOSITORY
+          value: "killedby.json"
+        ports:
+        - containerPort: 8080
