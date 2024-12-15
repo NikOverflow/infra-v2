@@ -14,3 +14,6 @@ spec:
         namespace: wakapi
   values:
     replicaCount: 1
+    wakapi_config:
+      server:
+        port: 8080
