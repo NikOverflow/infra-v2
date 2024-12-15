@@ -1,0 +1,47 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: diskube
+  namespace: diskube
+  labels:
+    app: diskube
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: diskube
+  template:
+    metadata:
+      labels:
+        app: diskube
+    spec:
+      containers:
+      - name: diskube
+        image: bacherik/diskube:latest
+        env:
+          - name: DISCORD_BOT_TOKEN
+            valueFrom:
+              secretKeyRef:
+                name: diskube
+                key: bot-token
+          - name: DISCORD_WEBHOOK
+            valueFrom:
+              secretKeyRef:
+                name: diskube
+                key: webhook
+          - name: DB_HOST
+            value: "mysql"
+          - name: DB_PORT
+            value: "3306"
+          - name: DB_NAME
+            value: "diskube"
+          - name: DB_USER
+            valueFrom:
+              secretKeyRef:
+                name: diskube
+                key: db-user
+          - name: DB_PASSWORD
+            valueFrom:
+              secretKeyRef:
+                name: diskube
+                key: db-password

@@ -1,0 +1,12 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+namespace: diskube
+resources:
+  - namespace.yaml
+  - deployment_mysql.yaml
+  - pvc_mysql.yaml
+  - service_mysql.yaml
+  - deployment_bot.yaml
+  - sa.yaml
+  - c-role.yaml
+  - crb.yaml
