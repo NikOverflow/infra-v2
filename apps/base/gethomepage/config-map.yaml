@@ -24,6 +24,7 @@ data:
       opacity: 50 # 0-100
     cardBlur: sm # sm, "", md, etc... see https://tailwindcss.com/docs/backdrop-blur
     favicon: https://avatars.githubusercontent.com/u/75324423?v=4
+    description: The homepage of BachErik
     theme: dark # or light
     color: slate
     headerStyle: clean
