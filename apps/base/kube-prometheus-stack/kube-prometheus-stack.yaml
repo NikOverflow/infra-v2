@@ -21,10 +21,10 @@ spec:
   interval: 30m
   chart:
     spec:
-      chart: kube-prometheus-stack
+      chart: prometheus-community
       version: "67.7.0"
       sourceRef:
         kind: HelmRepository
-        name: prometheus-community
+        name: kube-prometheus-stack
         namespace: kube-prometheus-stack
       interval: 12h
