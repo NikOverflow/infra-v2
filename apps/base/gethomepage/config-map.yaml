@@ -71,55 +71,55 @@ data:
             - abbr: BE
               href: https://github.com/BachErik
               icon: github-light.png
-              description: Hier sieht man wie schlecht ich eigentlich wirklich programmieren kann.
+              description: Here you can see how bad I actually am at programming.
         - BachErik-Team:
             - abbr: BET
               href: https://github.com/BachErik-Team
               icon: github-light.png
-              description: Irgend so ne orga
+              description: Just some organization.
         - SecuritySchool:
             - abbr: S
               href: https://github.com/SecSchool
               icon: github-light.png
-              description: Eine Platform von unter anderem Niklas die es insich hat.
+              description: A platform, among others, created by Niklas, which is quite something.
 
     - Social:
         - Instagram:
             - abbr: I
               href: https://www.instagram.com/BachErik_live/
               icon: instagram.svg
-              description: Mein Instagram der nicht regelmäßig ist
+              description: My irregular Instagram account.
         - Twitter / X:
             - abbr: X
               href: https://twitter.com/BachErik_live
               icon: twitter.svg
-              description: Meine meinung ist unwichtig
+              description: My opinions are unimportant.
         - Discord:
             - abbr: DC
               href: https://discord.gg/9K8hVWcjFW
               icon: discord.svg
-              description: Mein Community Discord
+              description: My community Discord server.
         - Mastodon:
             - abbr: M
               href: https://mastodon.social/@BachErik
               icon: mastodon.svg
-              description: Falls Twitter austirbt
+              description: In case Twitter dies.
         - E-Mail:
             - abbr: E
               href: mailto:info@bacherik.de
               icon: mdi-email-#F2FBFB
-              description: Auf dem Klassischem wege
+              description: The classic way.
     - Entertainment:
         - YouTube:
             - abbr: YT
               href: https://youtube.com/@bacherik_live
               icon: youtube.svg
-              description: Alle paar Jahre mal Videos
+              description: Videos every few years.
         - Twitch:
             - abbr: T
               href: https://twitch.tv/bacherik_live
               icon: twitch.svg
-              description: Man darf ja mal träumen ...
+              description: One can always dream...
   services.yaml: |
     # For configuration options and examples, please see:
     # https://gethomepage.dev/latest/configs/services
@@ -128,15 +128,15 @@ data:
         - GitHub:
             href: https://github.com/SecSchool
             icon: github-light.png
-            description: Eine Platform von unter anderem Niklas die es insich hat.
+            description: A platform, among others, created by Niklas, which is quite something.
         - Discord:
             href: https://discord.gg/2bWxKHn8Yd
             icon: discord.svg
-            description: Der Security School discord
-        - Webseite:
+            description: The Security School Discord server.
+        - Website:
             href: https://secschool.net/
             icon: https://avatars.githubusercontent.com/u/138791564?s=200&v=4
-            description: (noch nicht fertig)
+            description: (Not finished yet.)
             ping: secschool.net
         - Twitch:
             href: https://twitch.tv/secscool
@@ -146,21 +146,21 @@ data:
             href: https://status.bacherik.de
             icon: https://avatars.githubusercontent.com/u/75324423?v=4
         - Main server:
-            description: Mein main Server erreichbar über main.bacherik.de
+            description: My main server reachable at main.bacherik.de
             widget:
                 type: uptimerobot
                 url: https://api.uptimerobot.com
                 key: m796718516-ca9cd9d6ec77a419849e369e
                 hideErrors: true
         - Sync server:
-            description: Auf diesem Server läuft diese seite. Erreichbar ist der Server über sync.bacherik.de
+            description: This server hosts this site. It is reachable at sync.bacherik.de
             widget:
                 type: uptimerobot
                 url: https://api.uptimerobot.com
                 key: m796868779-af16b0edc81af7ebafa9f2a5
                 hideErrors: true
         - bacherik.de:
-            description: Meine haupt webseite domain
+            description: My main website domain.
             widget:
                 type: uptimerobot
                 url: https://api.uptimerobot.com
@@ -168,7 +168,7 @@ data:
                 hideErrors: true
     - Minecraft Servers:
         - Eulengames:
-            description: Eulengames Netzwerk
+            description: Eulengames network.
             widget:
                 type: minecraft
                 url: udp://eulengames.net:25565
@@ -176,7 +176,7 @@ data:
                 version: True
                 status: True
         - TheJoCraft:
-            description: Das Netzwerk von TheJoCraft
+            description: TheJoCraft network.
             href: https://thejocraft.net
             icon: https://avatars.githubusercontent.com/u/122056285?s=200&v=4
             widget:
@@ -186,7 +186,7 @@ data:
                 version: True
                 status: True
         - Hypixel:
-            description: Jeder kennt es
+            description: Everyone knows it.
             href: https://hypixel.net
             icon: https://hypixel.net/styles/hypixel-v2/images/hypixel-512px.png
             widget:
@@ -219,7 +219,7 @@ data:
 
     - datetime:
         # 06.05.24, 17:50:40 MESZ
-        locale: de
+        locale: en
         format:
             dateStyle: short
             timeStyle: long
