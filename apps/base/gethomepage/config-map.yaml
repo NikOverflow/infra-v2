@@ -54,17 +54,17 @@ data:
             - abbr: 17
               href: https://file.bacherik.de/minecraft/maps/ME-System/ME-System_1.17.zip
               icon: minecraft.svg
-              description: dwnload the minecraft ME-System for Minecraft version 1.17
+              description: Download the Minecraft ME-System for Minecraft version 1.17
         - 1.18 / 1.19:
             - abbr: 18
               href: https://file.bacherik.de/minecraft/maps/ME-System/ME-System_1.18-1.19.zip
               icon: minecraft.svg
-              description: download the minecraft ME-System for Minecraft versions 1.18 and 1.19
+              description: Download the Minecraft ME-System for Minecraft versions 1.18 and 1.19
         - 1.20.x:
             - abbr: 20.x
               href: https://file.bacherik.de/minecraft/maps/ME-System/ME-System_1.20.x.zip
               icon: minecraft.svg
-              description: download the minecraft ME-System for Minecraft version 1.20.x
+              description: Download the Minecraft ME-System for Minecraft version 1.20.x
 
     - GitHub:
         - BachErik:
@@ -146,14 +146,14 @@ data:
             href: https://status.bacherik.de
             icon: https://avatars.githubusercontent.com/u/75324423?v=4
         - Main server:
-            description: Mein main server erreichbar über main.bacherik.de
+            description: Mein main Server erreichbar über main.bacherik.de
             widget:
                 type: uptimerobot
                 url: https://api.uptimerobot.com
                 key: m796718516-ca9cd9d6ec77a419849e369e
                 hideErrors: true
         - Sync server:
-            description: Auf diesem server läuft diese seite. Erreichbar ist der server über sync.bacherik.de
+            description: Auf diesem Server läuft diese seite. Erreichbar ist der Server über sync.bacherik.de
             widget:
                 type: uptimerobot
                 url: https://api.uptimerobot.com
@@ -168,7 +168,7 @@ data:
                 hideErrors: true
     - Minecraft Servers:
         - Eulengames:
-            description: Eulengames netzwerk
+            description: Eulengames Netzwerk
             widget:
                 type: minecraft
                 url: udp://eulengames.net:25565
@@ -176,7 +176,7 @@ data:
                 version: True
                 status: True
         - TheJoCraft:
-            description: Das netzwerk von TheJoCraft
+            description: Das Netzwerk von TheJoCraft
             href: https://thejocraft.net
             icon: https://avatars.githubusercontent.com/u/122056285?s=200&v=4
             widget:
